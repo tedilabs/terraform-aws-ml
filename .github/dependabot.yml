@@ -5,8 +5,8 @@ updates:
   schedule:
     interval: daily
 
-# - package-ecosystem: terraform
-#   directories:
-#   - /modules/
-#   schedule:
-#     interval: weekly
+- package-ecosystem: terraform
+  directories:
+  - /modules/*
+  schedule:
+    interval: weekly
