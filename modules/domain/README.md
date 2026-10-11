@@ -29,10 +29,10 @@ This module creates following resources.
 
 | Name | Source | Version |
 | ---- | ------ | ------- |
-| <a name="module_execution_role"></a> [execution\_role](#module\_execution\_role) | tedilabs/account/aws//modules/iam-role | ~> 0.33.11 |
-| <a name="module_resource_group"></a> [resource\_group](#module\_resource\_group) | tedilabs/misc/aws//modules/resource-group | ~> 0.12.0 |
-| <a name="module_service_role"></a> [service\_role](#module\_service\_role) | tedilabs/account/aws//modules/iam-role | ~> 0.33.11 |
-| <a name="module_share"></a> [share](#module\_share) | tedilabs/organization/aws//modules/ram-share | ~> 0.8.1 |
+| <a name="module_execution_role"></a> [execution\_role](#module\_execution\_role) | tedilabs/account/aws//modules/iam-role | ~> 0.34.0 |
+| <a name="module_resource_group"></a> [resource\_group](#module\_resource\_group) | tedilabs/misc/aws//modules/resource-group | ~> 0.13.0 |
+| <a name="module_service_role"></a> [service\_role](#module\_service\_role) | tedilabs/account/aws//modules/iam-role | ~> 0.34.0 |
+| <a name="module_share"></a> [share](#module\_share) | tedilabs/organization/aws//modules/ram-share | ~> 0.9.0 |
 
 ## Resources
 
