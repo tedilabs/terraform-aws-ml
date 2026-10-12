@@ -59,6 +59,8 @@ module "execution_role" {
     enabled = false
   }
 
+  assumable_roles = var.default_execution_role.assumable_roles
+
   policies = concat(
     ["arn:aws:iam::aws:policy/service-role/SageMakerStudioDomainExecutionRolePolicy"],
     var.default_execution_role.policies,
@@ -124,6 +126,8 @@ module "service_role" {
   trusted_source_identity = {
     enabled = false
   }
+
+  assumable_roles = var.default_service_role.assumable_roles
 
   policies = concat(
     ["arn:aws:iam::aws:policy/service-role/SageMakerStudioDomainServiceRolePolicy"],
